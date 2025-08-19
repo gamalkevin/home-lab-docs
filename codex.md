@@ -1,5 +1,5 @@
-# Homelab Creation Documentation
+# Activities & To-dos for Homelab Project
 
 - [x] Make GitHub for documentation
-- [ ] Install Virtualbox/VMWare
-- [ ] Contact the media
+- [x] Install KVM/QEMU (`qemu-kvm`) & `virt-manager`
+- [ ] Setup KVM/QEMU
