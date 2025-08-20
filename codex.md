@@ -2,4 +2,5 @@
 
 - [x] Make GitHub for documentation
 - [x] Install KVM/QEMU (`qemu-kvm`) & `virt-manager`
-- [ ] Setup KVM/QEMU
+- [x] Setup KVM/QEMU
+- [ ] Create VM using `virt-manager` (GUI) & `virsh` (CLI)
