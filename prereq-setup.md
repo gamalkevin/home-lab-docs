@@ -161,8 +161,8 @@ First one says `enabled` and the second one says `inactive`, while it should say
 - Turns out, I left it on idle, and it went inactive by itself, since `libvirtd` on modern distros often isn’t supposed to run as a *persistent daemon* anymore. Instead, it’s managed by socket activation:
 	- The sockets (`libvirtd.socket`, `libvirtd-ro.socket`, `libvirtd-admin.socket`) listen in the background.
 	- When a client (like `virsh` or `virt-manager`) connects, systemd starts `libvirtd` automatically.
-	- If idle, systemd may stop it again.
-- Sure enough, when I run `sudo virsh list --all`, the `libvirtd` became active again.
+	- If idle, `systemd` may stop it again.
+- Sure enough, running `sudo virsh list --all` reactivates `libvirtd`.
 
 ### Last step
 Adding my user to `libvirt` group, so elevated privilege is not needed for `virt-manager` (*no need for sudo*).
