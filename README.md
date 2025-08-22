@@ -11,4 +11,4 @@ Bismillah.
 
 The whole documentation will utilize [Markdown](https://www.markdownguide.org/cheat-sheet/) for ease of use, readability, and structure.
 
-For planned activities, see the [Codex](https://github.com/gamalkevin/home-lab-docs/blob/main/README.md).
+For planned activities, see the [Codex](https://github.com/gamalkevin/home-lab-docs/blob/main/codex.md).
