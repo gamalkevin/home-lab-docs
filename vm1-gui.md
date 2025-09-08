@@ -35,8 +35,8 @@ For the first VM, I'll be using GUI (`virt-manager`) just for the sake of famili
 ## 🚀 Installer Launch:
 1. The Ubuntu ISO that I'm using greeted me with an aptly minimalistic-looking GRUB. Perhaps this is the standard for enterprise-level OSes.
 2. I chose the first entry: `Try or Install Ubuntu Server`
-3. The Live session experience is unlike desktop Ubuntu; 
-	1. For starters, it uses `Subiquity` installer (*compared to Calamares in desktop ISOs*). It doesn't have the 'beauty' of the usual desktop, only TUI (Text-based User Interface), though you get the blazing fast performance, even on VM, since it only uses a minimal resource to draw the text. 
+3. The Live session experience is unlike my usual experience of late; 
+	1. For starters, it uses `Subiquity` installer (*compared to Calamares in other desktop ISOs like Manjaro*). It doesn't have the 'beauty' of the usual desktop, only TUI (Text-based User Interface), though you get the blazing fast performance, even on VM, since it only uses a minimal resource to draw the text. 
 	2. Arguably, it is still much easier to use compared to other more 'advanced' server OSes.
 4. When asked to **"Choose the base for the installation"**, I chose the first option: `Ubuntu Server` and not the `Ubuntu Server (minimized)` as I'm still learning. I also checked `Search for third-party drivers`. I press `done`.
 5. Next come the `Network configuration`. I will leave it as is, using the default config.
